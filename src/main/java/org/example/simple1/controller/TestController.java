@@ -63,7 +63,7 @@ public class TestController {
     public MemberDto testCD7() {
         MemberDto memberDto = new MemberDto();
         memberDto.setName("test CD7");
-        memberDto.setAge(77);
+        memberDto.setAge(123);
         return memberDto;
     }
 }
