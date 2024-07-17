@@ -81,6 +81,13 @@ public class TestController {
         memberDto.setAge(99);
         return memberDto;
     }
+    @GetMapping("/test10")
+    public MemberDto test10() {
+        MemberDto memberDto = new MemberDto();
+        memberDto.setName("test10");
+        memberDto.setAge(10);
+        return memberDto;
+    }
 }
 
 
